@@ -1,16 +1,54 @@
 # manushtech_task
 
-A new Flutter project.
+# Albums & Photos App
+
+This Flutter app fetches a list of albums and photos using the JSONPlaceholder API. It allows users to search albums and view photos in detail.
+
+## Features
+
+- Fetch and display albums
+- Search albums by title
+- View photos of an album with thumbnails and titles
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Git: [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Sifatsb/manushtech_task
+    cd manushtech_task
+    ```
+
+2. Get dependencies:
+    ```sh
+   flutter clean
+    flutter pub get
+    ```
+
+### Running the App
+
+- **On Emulator:**
+    1. Set up an Android or iOS emulator.
+    2. Run the app:
+       ```sh
+       flutter run
+       ```
+
+- **Generating APK:**
+  ```sh
+  flutter build apk
+
+
+Project Structure
+lib/controllers: Contains GetX controllers.
+lib/models: Contains data models.
+lib/views: Contains UI screens.
+lib/routes: Contains route definitions.
+
+
