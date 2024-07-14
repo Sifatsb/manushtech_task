@@ -14,7 +14,6 @@ import 'api_exceptions.dart';
 class BaseClient {
   Future<dynamic> getData({
     required String url,
-    required Map<String, String> header,
   }) async {
     debugPrint('Get Request: $url');
     try {
@@ -43,7 +42,6 @@ class BaseClient {
   Future<dynamic> postData({
     Map<String, dynamic>? payload,
     required String url,
-    required Map<String, String> header,
   }) async {
     debugPrint('Post Request: $url');
     try {
@@ -74,7 +72,6 @@ class BaseClient {
   Future<dynamic> deleteData({
     required payload,
     required String url,
-    required Map<String, String> header,
   }) async {
     debugPrint('Delete Request: $url');
     try {
@@ -105,7 +102,6 @@ class BaseClient {
   Future<dynamic> putData({
     required payload,
     required String url,
-    required Map<String, String> header,
   }) async {
     debugPrint('Put Request: $url');
     try {

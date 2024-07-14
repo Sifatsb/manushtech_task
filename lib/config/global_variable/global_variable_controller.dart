@@ -1,20 +1,14 @@
-
-import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class GlobalVariable {
-
-
   static Map<String, String> header = {
     'Content-Type': 'application/json',
     'Accept': 'application/json',
-    'Authorization':  Get.find<GlobalRxVariableController>().token.value!,
+    'Authorization': Get.find<GlobalRxVariableController>().token.value!,
   };
-
 }
 
 class GlobalRxVariableController extends GetxController {
-
   final notificationCount = Rxn<int>();
   final studentRecordId = Rxn<int>();
   final roleId = Rxn<int>();
@@ -32,7 +26,4 @@ class GlobalRxVariableController extends GetxController {
 
   final pusherApiKey = Rxn<String>();
   final pusherClusterKey = Rxn<String>();
-
-
 }
-
