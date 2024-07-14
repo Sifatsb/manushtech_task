@@ -45,10 +45,11 @@ This Flutter app fetches a list of albums and photos using the JSONPlaceholder A
   flutter build apk
 
 
-Project Structure
-lib/controllers: Contains GetX controllers.
-lib/models: Contains data models.
-lib/views: Contains UI screens.
-lib/routes: Contains route definitions.
+## Project Structure
+
+- lib/controllers: Contains GetX controllers.
+- lib/models: Contains data models.
+- lib/views: Contains UI screens.
+- lib/routes: Contains route definitions.
 
 
